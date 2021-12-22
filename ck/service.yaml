@@ -4,10 +4,8 @@ metadata:
   name: myapp-service
 spec:
   selector:
-    app: myapp
+    app: ckapp
   ports:
   - port: 8080
     protocol: TCP
     targetPort: 8080
-  
-
